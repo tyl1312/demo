@@ -1,10 +1,13 @@
 package com.example.demo.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
 @AllArgsConstructor
-@Getter
+@Data
 public class UserDto {
     private Long id;
     private String name;
